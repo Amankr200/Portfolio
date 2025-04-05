@@ -15,7 +15,7 @@ const ResponsiveMenu = ({ open }) => {
     }, []);
 
     return (
-        <div className={`${open ? "left-0" : "-left-[100%]"} fixed bottom-0 top-0 z-20 flex h-screen w-[75%] flex-col justify-between bg-gray-950 px-4 pb-6 pt-6 text-black md:hidden rounded-r-xl shadow-md transition-all`}>
+        <div className={`${open ? "left-0" : "-left-[100%]"} fixed bottom-0 top-0 z-20 flex h-screen w-[90%] flex-col justify-between bg-gray-950 px-4 pb-6 pt-6 text-black md:hidden rounded-r-xl shadow-md transition-all`}>
             <div className='bg-gray-600 rounded-md p-4'>
                 <div className='rounded-xl p-3 flex items-center justify-center'>
                     <img src={aman_professional_pic1} alt="Aman Kumar" className='w-[200px] bg-gray-700 rounded-2xl' />
